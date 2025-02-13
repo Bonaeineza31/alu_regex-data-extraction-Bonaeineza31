@@ -93,7 +93,6 @@ print("0 Time:")
 for time in times:
     print(f"  ○ {time}")
 print()
-
 print("0 Currency amounts:")
 for currency in currencies:
     print(f"  ○ {currency}")
