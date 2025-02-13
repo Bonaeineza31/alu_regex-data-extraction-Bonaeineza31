@@ -58,6 +58,7 @@ Meeting times are 14:30 and 2:30 PM.
 Credit card: 1234 5678 9012 3456 and 1234-5678-9012-3456
 """
 
+
 # Running all functions and presenting the results
 emails = extract_emails(test_text)
 phone_numbers = extract_phone_numbers(test_text)
@@ -67,14 +68,35 @@ times = extract_time(test_text)
 currencies = extract_currency(test_text)
 
 # Display results in a clean, readable format
-print("Hello Readers!!!! Here is my extraction results:\n")
-print(f"Emails Found:\n- {', '.join(emails)}\n")
-print(f"Phone Numbers Found:\n- {', '.join(phone_numbers)}\n")
-print(f"URLs Found:\n- {', '.join(urls)}\n")
-print(f"Credit Card Numbers Found:\n- {', '.join(creditcards)}\n")
-print(f"Times Found:\n- {', '.join(times)}\n")
-print(f"Currency Amounts Found:\n- {', '.join(currencies)}\n")
+print("Hello Reader, this is what was extracted\n" )
+print("o Email addresses:")
+for email in emails:
+    print(f"  o {email}")
+print()
 
+print("o Phone numbers (various formats):")
+for phone in phone_numbers:
+    print(f"  ○ {phone}")
+print()
+
+print("o URLs:")
+for url in urls:
+    print(f"  ○ {url}")
+print()
+
+print("o Credit card numbers:")
+for card in creditcards:
+    print(f"  ○ {card}")
+print()
+
+print("0 Time:")
+for time in times:
+    print(f"  ○ {time}")
+print()
+
+print("0 Currency amounts:")
+for currency in currencies:
+    print(f"  ○ {currency}")
 
 
 
