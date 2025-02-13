@@ -1,5 +1,5 @@
 # The file name is called regex_data_extractor.py
-I started by creating  a repository called alu_regex_data_extraction_ Bonaeineza31
+I started by creating  a repository called alu_regex_data_extraction_b.ineza@alustudent.com
 Then initialized a Readme.md file as it would help me clone it in my jetbrain.Ide/pycharm
 I did clone it, then created the file regex_data_extractor.py where i had to implement my codes
 The features I wanted to display are as follow : Email address, URLs, Phonenumbers, Creditcards , Time and Currency Amount
